@@ -1,0 +1,500 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.bodys{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+.container{
+    width: 75%;
+    border: 2px solid black;
+    height: 100vh;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: rgb(28, 26, 26);
+    position: relative;
+}
+aside{
+    padding: 5px;
+    width: 25%;
+    border: 2px solid black;
+     height: 100vh;
+    margin: 3px;
+    border-radius: 5px;
+    background-color: black;
+    overflow-y: scroll;
+}
+.container nav{
+    width: 100%;
+    background-color: rgb(14, 13, 13);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 80px;
+    justify-content: space-between;
+    /* position: fixed; */
+}
+nav .btn{
+    margin: 5px;
+    padding: 7px;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+}
+.signup{
+    background-color:rgb(14, 13, 13);
+    color: rgb(153, 149, 149);
+    
+}
+.signup:hover{
+    color: white;
+    font-size: 18px;
+}
+.login{
+    background-color: white;
+    color: black;
+}
+.login:hover{
+font-size: 19px;
+padding: 1px;
+}
+.dir{
+    margin: 5px;
+    padding: 7px;
+    display:flex;
+    flex-direction: row;    
+}
+.rgt{
+    color: grey;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 50px;
+    height: auto;
+    width: auto;
+    padding: 5px;
+
+}
+.rgt:hover{
+    color: white;
+}
+.font{
+ font-family: "Roboto", sans-serif;
+ font-weight: 700;
+  font-size: 17px;
+  width: 100px;
+  border-radius: 50px;
+  padding: 10px;
+  border: 2px;
+  cursor: pointer;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+    background-color:  rgb(21, 21, 21);
+    
+    border-radius: 20px;
+    margin: 10px;
+}
+.box1 ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.box1 ul li{
+    display: flex;
+    gap: 25px;
+    font-weight: 600;
+    font-size: 17px;
+ font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+.l{
+    width: 25px;
+}
+.box2{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    font-weight: 600;
+    font-size: 17px;
+ font-family: "Roboto", sans-serif;
+ padding: 5px;
+ border: none;
+}
+.light{
+    color: grey;
+    cursor: pointer;
+}
+.light:hover{
+    color: white;
+}
+.line:hover{
+    text-decoration: underline;
+}
+.logo{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cross{
+    display: none;
+}
+.superbox2{
+    background-color:  rgb(21, 21, 21);
+    border: 2px solid rgb(21, 21, 21) ;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.scroll{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    font-family: "Roboto", sans-serif;
+    height: 50px;
+    overflow-y: scroll;
+}
+.sc1{
+   background-color: rgb(28, 26, 26);
+   color: white;
+   padding: 15px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   border: 5px solid rgb(28, 26, 26);
+   border-radius: 3px;
+  
+}
+.no1{
+    font-size: 20px;
+    font-weight: 500;
+}
+.button{
+   width: auto;
+   font-size: 15px;
+   font-weight: 600;
+}
+.superbox2 footer a{
+    color: grey;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+
+}
+footer{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 15px;
+}
+.spotifyply{
+    font-family:"Roboto", sans-serif ;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    position: relative;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 50vh;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+    gap: 15px;
+    padding: 5px;
+    margin: 5px;
+    overflow-y:hidden;
+    position: relative;
+}
+.image img{
+    width: 100%;
+    border-radius: 10px;
+}
+.cardcontent{
+    color: grey;
+}
+.heading{
+    font-size: 18px;
+}
+.card:hover{
+    background-color:  rgb(44, 38, 38);
+    cursor: pointer;
+    .play{
+        opacity: 1;
+    }
+}
+.play{
+    position: absolute;
+    right: 30px;
+    bottom: 130px;
+    opacity: 0;
+    transition: all 0.5s ease-out;
+}
+
+.plybtn{
+    min-height: 58px;
+    background-color: silver;
+    position: relative;
+    top:130px;
+    border: 2px ;
+    border-radius: 20px; 
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+}
+.dur{
+    width: 90%;
+    margin: auto;
+    background-color: black;
+    border: 2px solid black;
+    cursor: pointer;
+    position: absolute;
+    bottom: 3px;
+    left: 50px;
+    height: 2px;
+    
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 10;
+    bottom: -3px;
+    left: 0px;
+    transition: ease-out 1s;
+    cursor: pointer;
+}
+.timevol{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+}
+.volume{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+/* Define scrollbar width and color variables */
+:root {
+    --scrollbar-width: 10px; /* Adjust as needed */
+    --scrollbar-color: rgba(0, 0, 0, 0); /* Transparent */
+  }
+  
+  /* Hide scrollbar track */
+  ::-webkit-scrollbar {
+    width: var(--scrollbar-width);
+  }
+  
+  /* Style scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0); /* Transparent */
+  }
+  
+  /* Optional: Style scrollbar track on hover */
+  ::-webkit-scrollbar:hover {
+    width: var(--scrollbar-width);
+  }
+  
+  /* Optional: Style scrollbar thumb on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5); /* Change to desired hover color */
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
+  }
+  .songList{
+    height: 150px;
+    overflow-y: scroll;
+    background-color: rgb(36, 32, 32);
+    border-radius: 10px;
+  }
+  .songList ul li{
+     display: flex;
+     flex-direction: row;   
+     /* justify-content: space-around;  */
+     color: white;
+     font-family:"Roboto", sans-serif ;
+     /* border: 2px solid white; */
+     border-radius: 8px;
+     gap: 30px;
+     padding: 10px;
+    }  
+.songList ul {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+   
+    
+}
+.plynw{
+    opacity: 0;
+}
+.songList ul li:hover{
+    cursor: pointer;
+    background-color: rgb(40, 37, 37);
+    text-decoration: underline;
+    .plynw{
+    opacity: 1;
+    }
+}
+.ttt{
+ cursor: pointer;
+}
+.equip{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: black;
+    position: relative;
+    top: 15px;
+}
+.hamb{
+    display: none;
+    margin: 5px;
+    padding: 7px;
+}
+.things{
+    display: flex;
+    flex-direction: row;
+}
+.orange{
+    accent-color: rgb(27, 241, 27);
+    }
+.block{
+    background-color: red;
+    position: relative;
+    z-index: 20;
+    left:600px;
+    text-align: center;
+    width: 50vw;
+    height: 90vh;
+    top:35px;
+}
+@media (max-width:1000px) {
+    aside{
+        position: absolute;
+        left: -120%;
+        transition: all 1s ease-in-out;
+        z-index: 10;
+        width: 400px;
+    }
+    .container{
+        width: 100vw;
+    }
+    .hamb{
+        display: block;
+    }
+    .cross{
+        display: block;
+        cursor: pointer;
+    }
+    .cross:hover{
+        color: grey;
+    }
+}
+@media (max-width:450px) {
+    aside{
+        position: absolute;
+        left: -120%;
+        transition: all 1s ease-in-out;
+        z-index: 10;
+        width: 100%;
+    }
+    nav .btn{
+        gap: 8px;
+    }
+
+}
+@media (max-width:780px){
+    .dur{
+        width: 80%;
+    }
+    .songName {
+        width: 80px;
+        height: 35px;
+        overflow-y: hidden;
+    }
+    .equip{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+    .plybtn{
+        width: auto;
+        gap: 25px;
+        top: 115px;
+    }
+      
+}
+@media (max-width:500px) {
+    .cards{
+        justify-content: center;
+        /* height: 100vh; */
+        overflow-y: scroll;
+        height: 70vh;
+       }
+       .card{
+        margin: 5px 10px;
+        width: 90vw;
+        height: 50vh;
+       }
+       .plybtn{
+        top: -30px;
+       }
+       .image img{
+        width: 350px;
+       }
+       .timevol{
+        flex-direction: column;
+        gap:2px;
+       }
+}
+@media (max-width:350px) {
+
+    nav .btn{
+        position: relative;
+        right: 35%;
+    }
+}

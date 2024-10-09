@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="bodys">
+        <aside>
+            <div class="box1">
+                <div class="logo"><img src="Logos/spotify.svg" alt=""> <img class="cross" src="Logos/cross.svg" alt="">
+                </div>
+                <ul>
+                    <li class="line"> <img class="l" src="Logos/home.svg" alt="home">Home</li>
+                    <li class="light line"><img class="l" src="Logos/search.svg" alt="search"> Search</li>
+                </ul>
+            </div>
+            <div class="superbox2">
+                <div class="box2 box1 light line"><img class="l" src="Logos/lib.svg" alt="library">Your Library</div>
+                <div class="songList">
+                    <ul>
+                    </ul>
+                </div>
+                <div class="scroll">
+                    <div class="sc1">
+                        <div class="no1">Create Your First Playlist</div>
+                        <div class="no2">It's easy, we will help</div>
+                        <div class="no3"><button class="button font">Create Playlist</button></div>
+                    </div>
+                    <div class="sc1">
+                        <div class="no1">Let's find some podcast to follow</div>
+                        <div class="no2">We'll keep you updated on new episodes</div>
+                        <div class="no3"><button class="button font">Browse Podcast</button></div>
+                    </div>
+                </div>
+                <footer>
+                    <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy
+                                Center</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                </footer>
+            </div>
+
+        </aside>
+        <div class="container">
+            <nav>
+                <div class="things">
+                    <div class="hamb"><img src="Logos/hamburger.svg" alt=""></div>
+                    <div class="dir">
+                        <button class="rgt">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m15 19-7-7 7-7" />
+                            </svg>
+
+                        </button>
+                        <button class="rgt ">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
+                                viewBox="0 0 24 24">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" d="m9 5 7 7-7 7" />
+                            </svg>
+
+                        </button>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button class="signup font">Sign up</button>
+                    <button class="login font">Log in</button>
+                </div>
+            </nav>
+            <div class="spotifyply">
+                <h2>Spotify Playlist</h2>
+                
+                <div class="cards">
+                </div>
+
+                <div class="plybtn">
+                    <div class="equip">
+                        <div class="songName"></div>
+
+
+                        <div class="controls">
+                            <svg class="ttt" id="previous" class="w-6 h-6 text-gray-800 dark:text-white"
+                                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                                fill="black" viewBox="0 0 24 24" invert>
+                                <path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="m17 16-4-4 4-4m-6 8-4-4 4-4" />
+                            </svg>
+                            <img id="now" class="ttt" src="Logos/now.svg" alt="">
+                            <svg class="ttt" id="next" class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="black"
+                                viewBox="0 0 24 24">
+                                <path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="m7 16 4-4-4-4m6 8 4-4-4-4" />
+                            </svg>
+                        </div>
+                        <div class="timevol">
+                            <div class="songTime"></div>
+                            <div class="volume"><img id="vol" src="Logos/vol.svg" alt="">
+                                <div class="r"><input type="range" class="orange" name="volume"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bar">
+
+                        <div class="dur">
+                            <div class="circle"></div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
